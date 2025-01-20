@@ -63,7 +63,7 @@
 * `git branch`
   * Check all branches
 * `git branch new-branch-name`
-  * Create a new branch
+  * Create a new branch on your local machine
 * `git checkout branch-name`
   * Switch to another branch
 * `git checkout -b new-branch-name`
@@ -89,8 +89,27 @@
 * Remote is a branch
 * `git clone`
 * `git push`
+* `git push -u origin <branchname>`
+  * Create a new remote branch and push local changes to the remote server
+
+* `git push --delete origin <branchname>`
+  * Delete a remote branch
+
 * `git pull`
-  * Fetch from and integrate with another repository or a local branch into the current branch
+  * Fetch from and integrate with another people's changes from that branch
 * `git fetch`
   * Download objects and refs from another repository
+* Pull-merge-push workflow
 
+### Pull Request
+
+* Fork
+  * A way of creating a copy of the given repository so that it belongs to our user
+* Pull request
+  * A commit or a series of commits that you send to the owner of the repository so that they incorporate into thier tree
+
+## Git Flow vs. Github Flow
+
+* ![git_flow](img/git_flow.png)
+* ![git_flow](img/github_flow.png)
+* [Link](https://www.alexhyett.com/git-flow-github-flow/)
