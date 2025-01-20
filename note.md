@@ -89,8 +89,15 @@
 * Remote is a branch
 * `git clone`
 * `git push`
+* `git push -u origin <branchname>`
+  * Create a new remote branch and push to it
+
+* `git push --delete origin <branchname>`
+  * Delete a remote branch
+
 * `git pull`
   * Fetch from and integrate with another repository or a local branch into the current branch
 * `git fetch`
   * Download objects and refs from another repository
-
+* Pull-merge-push workflow
+* 
