@@ -107,6 +107,7 @@
   * A way of creating a copy of the given repository so that it belongs to our user
 * Pull request
   * A commit or a series of commits that you send to the owner of the repository so that they incorporate into thier tree
+* Code review
 
 ## Git Flow vs. Github Flow
 
