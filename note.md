@@ -86,5 +86,11 @@
 
 ### Working with Remotes
 
-* 
+* Remote is a branch
+* `git clone`
+* `git push`
+* `git pull`
+  * Fetch from and integrate with another repository or a local branch into the current branch
+* `git fetch`
+  * Download objects and refs from another repository
 
